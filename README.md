@@ -15,7 +15,7 @@ Projeto de estudo de automação de testes **E2E** com Cypress, aplicado ao [Swa
 
 - **Partição de equivalência** no login e nos campos obrigatórios do checkout
 - **Testes positivos e negativos** em todos os fluxos
-- **Validação de cálculo** no checkout: subtotal, imposto de 8% e total conferidos em centavos, evitando erro de arredondamento
+- **Validação de cálculo** no checkout: subtotal, imposto de 8% e total conferidos em centavos (inteiros), evitando falsos positivos causados por imprecisão de ponto flutuante no próprio teste
 - **Login por comando customizado** (`cy.login()`), executado antes de cada teste para garantir um estado inicial conhecido
 - **Seletores estáveis** com `data-test`, menos sensíveis a mudanças de layout
 - **Massa de dados em fixtures** (`cypress/fixtures`)
