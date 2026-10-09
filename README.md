@@ -20,7 +20,6 @@ Projeto de estudo de automação de testes **E2E** com Cypress, aplicado ao [Swa
 - **Seletores estáveis** com `data-test`, menos sensíveis a mudanças de layout
 - **Massa de dados em fixtures** (`cypress/fixtures`)
 - **Comandos customizados** para reaproveitar passos (`cypress/support/commands.js`)
-- **CI com GitHub Actions**: os testes rodam a cada push
 
 ## Estrutura
 
