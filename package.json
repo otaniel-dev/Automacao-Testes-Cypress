@@ -1,0 +1,14 @@
+{
+  "name": "cypress-sauce-demo",
+  "version": "1.0.0",
+  "description": "Automação de testes E2E com Cypress no Swag Labs (saucedemo.com)",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "Otaniel G. da Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^16.0.0"
+  }
+}

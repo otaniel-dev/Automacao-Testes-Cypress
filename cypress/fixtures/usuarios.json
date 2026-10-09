@@ -1,0 +1,5 @@
+{
+  "senha": "secret_sauce",
+  "padrao": "standard_user",
+  "bloqueado": "locked_out_user"
+}
